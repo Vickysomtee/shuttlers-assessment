@@ -156,7 +156,7 @@ Measurement Window: Rolling 5-minute intervals, aggregated over 30 days
 - Request metrics: Collect health check results and request forwarding statistics
 - Infrastructure monitoring: Track server CPU, memory, and network connectivity
 
-###SLI Calculation Methods
+### SLI Calculation Methods
 **Success Rate SLI**
 
 ```
