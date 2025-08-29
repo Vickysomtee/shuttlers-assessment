@@ -131,12 +131,14 @@ This means the "Hello, World!" application should be accessible and responding s
 **1. Request Success Rate**
 
 **Definition:** Percentage of HTTP requests that return a successful response (2xx status codes) out of total requests
-Target: ≥ 99.9% of requests should return HTTP 200 status
+
+**Target:** ≥ 99.9% of requests should return HTTP 200 status
 Measurement Window: Rolling 5-minute intervals, aggregated over 30 days
 
 **2. Response Time (Latency)**
 
 **Definition:** 95th percentile response time for successful requests
+
 **Target:** ≥ 99.9% of successful requests should complete within 500ms at the 95th percentile
 **Measurement Window:** Rolling 5-minute intervals, aggregated over 30 days
 
